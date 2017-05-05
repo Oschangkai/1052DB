@@ -1,4 +1,5 @@
 .vscode
+.idea
 config.json
 .DS_Store
 gs
