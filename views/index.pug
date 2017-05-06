@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .ui.container
+    h1= title
+    p Welcome to #{title}
+    .ui.container
+      if articles.lenght == 0
+        div.alert No Data
+      else
+        each article in articles
+          h2.post-id=article.id
+            p.col=article.col1
+            p.col=article.col2
+          hr

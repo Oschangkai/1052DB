@@ -1,11 +1,11 @@
-# YZU Course Info - Backend
+# YZU Course Info
 
 ## Description
-A RESTful APIs using Node JS, Express JS, and MS SQL Server
+An Express website using MS SQL
 
 ## Enviroment
 - Node.js v6.10.x (or newer)
 
 ## Build
 - npm install
-- node index.js
+- npm run start 

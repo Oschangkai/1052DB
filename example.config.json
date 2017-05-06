@@ -1,10 +1,9 @@
 {
-    "sql_connString": {
-        "user": "user-name",
+    "db": {
+        "user": "username",
         "password": "password",
-        "server": "ip-addr",
-        "database": "db-name"
-    },
-
-    "sql_table": "x.dbo.x"
+        "host": "ip-addr",
+        "database": "db-name",
+        "table": ""
+    }
 }
