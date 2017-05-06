@@ -6,5 +6,5 @@
         "database": "db-name"
     },
 
-    "sql_dbName": "x.dbo.x"
+    "sql_table": "x.dbo.x"
 }

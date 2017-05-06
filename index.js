@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const sqlQuery = require('./sqlQuery');
 
 try { // import the sensitive data from config.json
-  global.__conf = require('./config.json');
+  global._conf = require('./config.json');
 } catch(e) { console.log("config file NOT FOUND") };
 
 app.use(bodyParser.urlencoded({ extended: true }));
